@@ -1,0 +1,368 @@
+/*ContenidoArticle*/
+.homeSection {
+  padding: 2rem;
+  width: 90%;
+  margin-left: 5rem;
+  align-items: center;
+}
+.homeSection .homeP {
+  text-align: left;
+  margin-left: 2rem;
+  background-color: #AAA1C8;
+  padding: 1.5%;
+  border: 2px solid #372554;
+}
+.homeSection .articleImg {
+  margin: 5%;
+  width: 75%;
+  height: 30rem;
+  border: 4px solid black;
+}
+
+.ContainerH1 {
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+.ContainerH1 img {
+  width: 5rem;
+  height: 3rem;
+  margin-left: 70%;
+  background-color: white;
+}
+.ContainerH1 .H1index {
+  font-weight: bolder;
+  border: 2px solid black;
+}
+
+/*PaginaMusica*/
+div .H2 {
+  width: 100%;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.musica .P {
+  margin-left: 3px;
+  margin-right: 3px;
+  text-align: center;
+}
+.musica .MusicDiv {
+  margin-bottom: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+}
+.musica .MusicDiv .iframe1 {
+  margin-right: 3rem;
+  width: 25%;
+  height: 15rem;
+  border-radius: 10%;
+}
+.musica .MusicDiv .iframe2 {
+  width: 25%;
+  height: 15rem;
+  margin-left: 3rem;
+  border-radius: 10%;
+}
+
+.musicaH1:hover {
+  color: #c8b6ff;
+}
+
+.musicaH1 {
+  margin: 2%;
+  font-weight: bolder;
+}
+
+/*Artistas*/
+.card {
+  border-color: #303633;
+  margin: 3rem;
+  align-items: end;
+}
+
+.ArtistasMain {
+  margin: 3rem;
+}
+.ArtistasMain p {
+  text-align: center;
+}
+.ArtistasMain h1 {
+  margin: 1rem;
+  font-weight: bold;
+}
+.ArtistasMain .fotoartista {
+  width: 25rem;
+  height: 25rem;
+  margin: 5px;
+}
+
+.card {
+  margin-left: 65%;
+}
+
+/*PaginaBlog*/
+.ContenedorH1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.ContenedorH1 .h1 {
+  font-weight: bolder;
+}
+
+.BlogSection {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #303633;
+}
+.BlogSection .blogP1 {
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  opacity: none;
+  color: #DAFFED;
+}
+.BlogSection .blogP {
+  padding: 0.5rem;
+  margin: 1rem;
+  color: #DAFFED;
+}
+.BlogSection .blogImg {
+  margin-left: 5%;
+  width: 15rem;
+  height: 25rem;
+  opacity: none;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+.BlogSection .BlogSection hr {
+  color: #DAFFED;
+}
+
+.mapa {
+  margin: 5rem;
+  border-radius: 15%;
+}
+
+.container nav img {
+  width: 3.5rem;
+  height: 3rem;
+}
+.container .navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  padding: 1rem;
+  margin-inline: auto;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/*PagFotos*/
+.contenedorcarrucel {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  width: 90%;
+  height: 70rem;
+}
+.contenedorcarrucel #carouselExampleIndicators {
+  width: 100%;
+  height: 100%;
+}
+.contenedorcarrucel #carouselExampleIndicators .carousel-inner {
+  max-width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-left: 10px;
+}
+.contenedorcarrucel #carouselExampleIndicators .carousel-inner carousel-item {
+  max-width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+div .FotosH1 {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-weight: bold;
+  border: 2px solid black;
+  width: 80%;
+}
+div .imgH1 {
+  margin-left: 65%;
+  width: 8rem;
+  height: 4rem;
+}
+
+/*Footer*/
+footer {
+  margin-left: 3rem;
+  display: grid;
+  grid-template-areas: "item10 item50 item30";
+  width: 90%;
+}
+footer ul {
+  margin-left: 1rem;
+  grid-area: item30;
+  text-align: right;
+  list-style: none;
+}
+footer ul .textoFooter {
+  font-weight: bold;
+  color: black;
+}
+footer ul .enlaceFooter {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+footer .social-icon img {
+  grid-area: item10;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+@media (max-width: 480px) {
+  footer {
+    width: 90%;
+    margin: 0;
+  }
+  /*Fotos*/
+  div .imgH1 {
+    display: none;
+  }
+  div .FotosH1 {
+    text-align: center;
+    color: #5e548e;
+    font-weight: bolder;
+  }
+  .contenedorcarrucel {
+    margin: 0%;
+    width: 90%;
+  }
+  .contenedorcarrucel .carousel-inner {
+    height: 100%;
+  }
+  /*Blog*/
+  .ContenedorH1 {
+    width: 100%;
+    height: 20%;
+  }
+  .ContenedorH1 .h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .BlogSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7F557D;
+  }
+  .BlogSection .blogP1 {
+    text-align: center;
+    margin: 2rem;
+    font-weight: 500;
+  }
+  .BlogSection .blogImg {
+    border-radius: 10%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .divMapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .divMapa .mapa {
+    margin: 2rem;
+    width: 12rem;
+    height: 12rem;
+  }
+  /*Artista*/
+  .ArtistasMain h1 {
+    text-align: center;
+  }
+  .ArtistasMain .fotoartista {
+    width: 15rem;
+    height: 15rem;
+    margin: 5px;
+  }
+  .card {
+    display: none;
+  }
+  /*Musica*/
+  .musicaH1 {
+    color: #5e548e;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .musica {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+  }
+  .musica div {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-left: 1.5rem;
+  }
+  .musica div P {
+    background-color: #7F557D;
+    border: 2px solid black;
+    border-radius: 15%;
+    width: 80%;
+  }
+  .musica .MusicDiv {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .musica .MusicDiv .iframe1 {
+    width: 90%;
+    margin: 0%;
+    margin-bottom: 5px;
+  }
+  .musica .MusicDiv .iframe2 {
+    margin-top: 5px;
+    margin: 0%;
+    width: 90%;
+  }
+  /*Index*/
+  body .ContainerH1 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .ContainerH1 img {
+    display: none;
+  }
+  body .ContainerH1 .H1index {
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid black;
+  }
+  body .homeSection {
+    display: flex;
+    flex-direction: column;
+  }
+  body .homeSection .aticleImg {
+    width: 55%;
+  }
+  body .homeSection .homeP {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

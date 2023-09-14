@@ -1,0 +1,25 @@
+ /*Artistas*/
+ .card{
+    border-color: #303633;
+    margin: 3rem;
+    align-items: end;
+  }
+  .ArtistasMain{
+    margin: 3rem;
+        p{
+         text-align: center;
+        }
+        h1{
+          margin: 1rem;
+          font-weight: bold;
+        }
+        .fotoartista{
+          width: 25rem;
+          height: 25rem;
+          margin: 5px;
+        }
+         
+  }
+  .card{
+    margin-left: 65%;
+    }

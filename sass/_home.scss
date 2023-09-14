@@ -1,0 +1,40 @@
+/*ContenidoArticle*/
+
+.homeSection{
+    padding: 2rem;
+    width: 90%;
+    margin-left: 5rem;
+    align-items: center;
+
+.homeP{
+    text-align: left;
+     margin-left: 2rem;
+     background-color: #AAA1C8;
+     padding: 1.5%;
+    border: 2px solid #372554;
+}  
+.articleImg{
+    margin: 5%;
+    width: 75%;
+    height: 30rem;
+    border: 4px solid black;
+}
+}
+.ContainerH1{
+margin: 3rem;
+display: flex;
+flex-direction: row;
+
+img{
+width: 5rem;
+height: 3rem;
+margin-left: 70%;
+background-color: white;
+}
+
+.H1index{
+font-weight: bolder;
+border: 2px solid black;
+
+}
+}

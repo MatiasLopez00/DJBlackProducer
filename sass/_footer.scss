@@ -1,0 +1,33 @@
+  /*Footer*/
+  footer{
+    margin-left: 3rem;
+    display: grid;
+    grid-template-areas: 'item10 item50 item30';
+    width: 90%;
+    ul{
+      margin-left: 1rem;
+      grid-area: item30;
+      text-align: right;
+      list-style: none;
+
+        .textoFooter{
+          font-weight: bold;
+          color: black;
+        }
+        .enlaceFooter{
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+        }
+
+    }
+    .social-icon img {
+      grid-area: item10;
+      width: 24px;
+      height: 24px;
+      margin: 0 10px;
+    }
+
+  
+
+  }
