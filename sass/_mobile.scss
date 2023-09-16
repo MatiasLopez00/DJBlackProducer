@@ -21,7 +21,7 @@
     }
     .contenedorcarrucel{
       margin: 0%;
-      width: 90%;
+      width: 100%;
       .carousel-inner{
         height: 100%;
       }
@@ -127,10 +127,12 @@
               /*Index*/
       
       body{
-  
+          width: 90%;
         .ContainerH1{
             display: flex;
             flex-direction: column;
+
+            text-align: center;
           img{
               display: none;
           }
@@ -145,8 +147,13 @@
         .homeSection{
             display: flex;
             flex-direction: column;
+            align-items: center;
+            margin: 0%;
+            padding: 0%;
+            
                 .aticleImg{
                         width: 55%;
+                        height: 1.5rem;
                 }
                 .homeP{
                     text-align: center;

@@ -247,7 +247,7 @@ footer .social-icon img {
   }
   .contenedorcarrucel {
     margin: 0%;
-    width: 90%;
+    width: 100%;
   }
   .contenedorcarrucel .carousel-inner {
     height: 100%;
@@ -341,9 +341,13 @@ footer .social-icon img {
     width: 90%;
   }
   /*Index*/
+  body {
+    width: 90%;
+  }
   body .ContainerH1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   body .ContainerH1 img {
     display: none;
@@ -356,9 +360,13 @@ footer .social-icon img {
   body .homeSection {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
   }
   body .homeSection .aticleImg {
     width: 55%;
+    height: 1.5rem;
   }
   body .homeSection .homeP {
     text-align: center;
