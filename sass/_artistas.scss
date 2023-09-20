@@ -2,24 +2,30 @@
  .card{
     border-color: #303633;
     margin: 3rem;
+    margin-left: 65%;
     align-items: end;
   }
+  h1.artistasH1{
+    margin: 1rem;
+    font-weight: bold;
+  }
   .ArtistasMain{
+    display: grid;
+    grid-template-areas:'item1 item2'
+    'item1 item3';
+    border: solid #303633;
     margin: 3rem;
-        p{
+        p.artistas{
+          grid-area: item2 item3;
          text-align: center;
+         margin:0%;
         }
-        h1{
-          margin: 1rem;
-          font-weight: bold;
-        }
+
         .fotoartista{
+          grid-area: item1;
           width: 25rem;
           height: 25rem;
           margin: 5px;
         }
          
   }
-  .card{
-    margin-left: 65%;
-    }

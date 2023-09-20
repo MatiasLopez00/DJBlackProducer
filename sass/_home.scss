@@ -1,5 +1,6 @@
 /*ContenidoArticle*/
-
+body{
+    background-color: #f5ebe0;
 .homeSection{
     padding: 2rem;
     width: 90%;
@@ -7,11 +8,12 @@
     align-items: center;
 
 .homeP{
+    color: #f5ebe0;
     text-align: left;
      margin-left: 2rem;
-     background-color: #AAA1C8;
+     background-color: #303633;
      padding: 1.5%;
-    border: 2px solid #372554;
+    border: 2px solid #303633;
 }  
 .articleImg{
     margin: 5%;
@@ -36,5 +38,6 @@ background-color: white;
 font-weight: bolder;
 border: 2px solid black;
 
+}
 }
 }

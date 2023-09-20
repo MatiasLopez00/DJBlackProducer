@@ -1,36 +1,39 @@
 /*ContenidoArticle*/
-.homeSection {
+body {
+  background-color: #f5ebe0;
+}
+body .homeSection {
   padding: 2rem;
   width: 90%;
   margin-left: 5rem;
   align-items: center;
 }
-.homeSection .homeP {
+body .homeSection .homeP {
+  color: #f5ebe0;
   text-align: left;
   margin-left: 2rem;
-  background-color: #AAA1C8;
+  background-color: #303633;
   padding: 1.5%;
-  border: 2px solid #372554;
+  border: 2px solid #303633;
 }
-.homeSection .articleImg {
+body .homeSection .articleImg {
   margin: 5%;
   width: 75%;
   height: 30rem;
   border: 4px solid black;
 }
-
-.ContainerH1 {
+body .ContainerH1 {
   margin: 3rem;
   display: flex;
   flex-direction: row;
 }
-.ContainerH1 img {
+body .ContainerH1 img {
   width: 5rem;
   height: 3rem;
   margin-left: 70%;
   background-color: white;
 }
-.ContainerH1 .H1index {
+body .ContainerH1 .H1index {
   font-weight: bolder;
   border: 2px solid black;
 }
@@ -69,39 +72,46 @@ div .H2 {
 }
 
 .musicaH1:hover {
-  color: #c8b6ff;
+  color: #2b2d42;
+  font-size: 40px;
 }
 
 .musicaH1 {
   margin: 2%;
   font-weight: bolder;
+  transition: font-size 0.5s;
+  text-align: center;
 }
 
 /*Artistas*/
 .card {
   border-color: #303633;
   margin: 3rem;
+  margin-left: 65%;
   align-items: end;
 }
 
-.ArtistasMain {
-  margin: 3rem;
-}
-.ArtistasMain p {
-  text-align: center;
-}
-.ArtistasMain h1 {
+h1.artistasH1 {
   margin: 1rem;
   font-weight: bold;
 }
+
+.ArtistasMain {
+  display: grid;
+  grid-template-areas: "item1 item2" "item1 item3";
+  border: solid #303633;
+  margin: 3rem;
+}
+.ArtistasMain p.artistas {
+  grid-area: item2 item3;
+  text-align: center;
+  margin: 0%;
+}
 .ArtistasMain .fotoartista {
+  grid-area: item1;
   width: 25rem;
   height: 25rem;
   margin: 5px;
-}
-
-.card {
-  margin-left: 65%;
 }
 
 /*PaginaBlog*/
@@ -124,12 +134,12 @@ div .H2 {
   margin-left: 1.5%;
   margin-right: 1.5%;
   opacity: none;
-  color: #DAFFED;
+  color: #f5ebe0;
 }
 .BlogSection .blogP {
   padding: 0.5rem;
   margin: 1rem;
-  color: #DAFFED;
+  color: #f5ebe0;
 }
 .BlogSection .blogImg {
   margin-left: 5%;
@@ -140,10 +150,18 @@ div .H2 {
   border-radius: 5%;
 }
 .BlogSection .BlogSection hr {
-  color: #DAFFED;
+  color: #f5ebe0;
 }
 
-.mapa {
+.divMapa .mapa {
+  margin: 5rem;
+  border-radius: 15%;
+  width: 500px;
+  height: 480px;
+}
+.divMapa .mapa2 {
+  width: 500px;
+  height: 480px;
   margin: 5rem;
   border-radius: 15%;
 }
@@ -161,27 +179,57 @@ div .H2 {
 }
 
 /*PagFotos*/
-.contenedorcarrucel {
+.carruseles {
+  display: grid;
+  grid-template-areas: "item1 item2";
+  align-items: center;
+}
+.carruseles .contenedorcarrucel {
+  grid-area: "item1";
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 5%;
-  width: 90%;
-  height: 70rem;
+  margin-left: 15px;
+  width: 60%;
+  height: 30rem;
 }
-.contenedorcarrucel #carouselExampleIndicators {
+.carruseles .contenedorcarrucel #carouselExampleIndicators {
   width: 100%;
   height: 100%;
 }
-.contenedorcarrucel #carouselExampleIndicators .carousel-inner {
+.carruseles .contenedorcarrucel #carouselExampleIndicators .carousel-inner {
   max-width: 100%;
   height: 100%;
   align-items: center;
   margin-left: 10px;
 }
-.contenedorcarrucel #carouselExampleIndicators .carousel-inner carousel-item {
+.carruseles .contenedorcarrucel #carouselExampleIndicators .carousel-inner carousel-item {
   max-width: 100%;
   height: 100%;
+  align-items: center;
+}
+.carruseles .contenedorcarrucel2 {
+  grid-area: "item2";
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  width: 60%;
+  height: 30rem;
+}
+.carruseles .contenedorcarrucel2 #carouselExampleIndicators {
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+}
+.carruseles .contenedorcarrucel2 #carouselExampleIndicators .carousel-inner {
+  max-width: 100%;
+  height: 90%;
+  align-items: center;
+  margin-left: 10px;
+}
+.carruseles .contenedorcarrucel2 #carouselExampleIndicators .carousel-inner carousel-item {
+  max-width: 90%;
+  height: 90%;
   align-items: center;
 }
 
@@ -191,7 +239,7 @@ div {
 }
 div .FotosH1 {
   margin-top: 1rem;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   font-weight: bold;
   border: 2px solid black;
   width: 80%;

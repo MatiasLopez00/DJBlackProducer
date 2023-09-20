@@ -18,12 +18,12 @@
                     margin-left: 1.5%;
                     margin-right: 1.5%;
                     opacity: none;
-                    color: #DAFFED;
+                    color: #f5ebe0;
                 }
                 .blogP{
                     padding: 0.5rem;
                     margin: 1rem;
-                    color: #DAFFED;
+                    color: #f5ebe0;
                 }
                 .blogImg{
                     margin-left: 5%;
@@ -34,10 +34,20 @@
                     border-radius: 5%;
                 }
                 .BlogSection hr{
-                    color: #DAFFED;
+                    color: #f5ebe0;
                 }
       }
-      .mapa{
-        margin: 5rem;
-        border-radius: 15%;
+      .divMapa{
+        .mapa{
+            margin: 5rem;
+            border-radius: 15%;
+            width: 500px;
+            height: 480px;
+        }
+        .mapa2{
+            width: 500px;
+            height: 480px;
+            margin: 5rem;
+            border-radius: 15%;
+        }
       }
