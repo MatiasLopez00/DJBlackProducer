@@ -14,16 +14,18 @@
         }
         .FotosH1{
           text-align: center;
-          color: #5e548e;
+          color: #303633;
           font-weight: bolder;
         }
-  
     }
-    .contenedorcarrucel{
-      margin: 0%;
-      width: 100%;
-      .carousel-inner{
-        height: 100%;
+    .carruseles{
+
+      .contenedorcarrucel{
+          margin: 0%;
+          width: 100%;
+            .carousel-inner{
+                height: 100%;
+             }
       }
     }
       /*Blog*/
@@ -41,7 +43,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #7F557D;
+        background-color: #303633;
               
             .blogP1{
                 text-align: center;
@@ -64,7 +66,14 @@
             width: 12rem;
             height: 12rem;
           }
-      } 
+          .mapa2{
+            margin: 2rem;
+            width: 12rem;
+            height: 12rem;
+          }
+        }
+      
+       
       
   
       /*Artista*/
@@ -99,10 +108,9 @@
                 text-align: center;
                 margin-left: 1.5rem;
                 P{
-                  background-color: #7F557D;
+                  background-color: #303633;
                   border: 2px solid black;
-                  border-radius: 15%;
-                  
+                  color: #f5ebe0;
                   width: 80%;
                 }
             }
