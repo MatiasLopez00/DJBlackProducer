@@ -304,20 +304,30 @@ footer .social-icon img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
   }
   .divMapa .mapa {
     margin: 2rem;
-    width: 12rem;
+    width: 50%;
     height: 12rem;
   }
   .divMapa .mapa2 {
     margin: 2rem;
-    width: 12rem;
+    width: 50%;
     height: 12rem;
   }
   /*Artista*/
-  .ArtistasMain h1 {
+  h1 {
     text-align: center;
+  }
+  .ArtistasMain {
+    display: flex;
+    flex-direction: column;
+    background-color: #303633;
+  }
+  .ArtistasMain .artistas {
+    text-align: center;
+    color: #f5ebe0;
   }
   .ArtistasMain .fotoartista {
     width: 15rem;
@@ -356,6 +366,7 @@ footer .social-icon img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    container: fluid;
   }
   .musica .MusicDiv .iframe1 {
     width: 90%;
@@ -369,7 +380,8 @@ footer .social-icon img {
   }
   /*Index*/
   body {
-    width: 90%;
+    width: 100%;
+    justify-content: center;
   }
   body .ContainerH1 {
     display: flex;
@@ -388,6 +400,7 @@ footer .social-icon img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 0%;
     padding: 0%;
   }

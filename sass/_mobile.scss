@@ -1,5 +1,5 @@
 @media (max-width:480px){
-        
+  
     footer{
       width: 90%;
       margin: 0;
@@ -61,14 +61,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90%;
           .mapa{
             margin: 2rem;
-            width: 12rem;
+            width: 50%;
             height: 12rem;
           }
           .mapa2{
             margin: 2rem;
-            width: 12rem;
+            width: 50%;
             height: 12rem;
           }
         }
@@ -77,11 +78,18 @@
       
   
       /*Artista*/
+      h1{
+        text-align: center;
+      }
       .ArtistasMain{
-  
-            h1{
+        display: flex;
+        flex-direction: column;
+        background-color: #303633;
+            .artistas{
               text-align: center;
+              color: #f5ebe0;
             }
+
             .fotoartista{
               width: 15rem;
               height: 15rem;
@@ -120,6 +128,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                container: fluid;
                 .iframe1{
                   width: 90%;
                   margin: 0%;
@@ -135,7 +144,8 @@
               /*Index*/
       
       body{
-          width: 90%;
+          width: 100%;
+          justify-content: center;
         .ContainerH1{
             display: flex;
             flex-direction: column;
@@ -156,6 +166,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             margin: 0%;
             padding: 0%;
             
